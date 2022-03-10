@@ -26,7 +26,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ">
                     <li class="nav-item">
                         <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
@@ -64,7 +64,8 @@
             <h1 class="display-4">Selamat Datang Di Shelter Wedding</h1>
             <!-- <hr class="my-4"> -->
             <p>Wujudkan Pernikahan Impian Anda Bersama Kami</p>
-            <a href="" class="btn btn-outline-primary" role="button">Daftar</a>
+            <!-- <button type="submit" class="btn btn-outline-primary" onclick="window.location.href('Regist/index');">Daftarr</button> -->
+            <a href="<?php echo base_url('index.php/Regist') ?>" class="btn btn-outline-success" role="button">Daftar</a>
         </div>
     </div>
     <!-- JUMBOTRON END -->
