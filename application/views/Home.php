@@ -77,26 +77,26 @@
     <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-4">
-                <img class="rounded-circle" src="assets\image\small\DSC03465.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
+                <img class="rounded-circle" src="assets\image\decoration\Paket 1\WhatsApp Image 2022-03-11 at 15.18.36 (1).jpeg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Paket 1</h2>
                 <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
                 <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
+            </div>
             <div class="col-lg-4">
                 <img class="rounded-circle" src="assets\image\large\DSC03340.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
+                <h2>Paket 2</h2>
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                 <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
+            </div>
             <div class="col-lg-4">
                 <img class="rounded-circle" src="assets\image\small\DSC03334.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
+                <h2>Paket 3</h2>
                 <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                 <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+            </div>
+        </div> -->
 
 
         <!-- START THE FEATURETTES -->
@@ -104,12 +104,15 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading">Wedding Package
+                    <!--<span class="text-muted">It'll blow your mind.</span>-->
+                </h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <P><a class="" href="">Learn More</a></P>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="assets\image\large\DSC03463.JPG">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="assets\image\decoration\Paket 1\WhatsApp Image 2022-03-11 at 15.18.36 (1).jpeg">
             </div>
         </div>
 
@@ -117,11 +120,14 @@
 
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+                <h2 class="featurette-heading">Engagement Package
+                    <!-- <span class="text-muted">See for yourself.</span> -->
+                </h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <P><a class="" href="">Learn More</a></P>
             </div>
             <div class="col-md-5 order-md-1">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="assets\image\large\DSC03334.jpg">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="assets\image\decoration\Backdrop akad.jpeg">
             </div>
         </div>
 
@@ -129,11 +135,14 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                <h2 class="featurette-heading">Birthdays Package
+                    <!-- <span class="text-muted">Checkmate.</span> -->
+                </h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <P><a class="" href="">Learn More</a></P>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="assets\image\large\DSC03340.jpg">
+                <img width="270" height="350" class="featurette-image justify-content-end" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="assets\image\decoration\Birthday.jpeg">
             </div>
         </div>
 
