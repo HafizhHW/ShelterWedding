@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!-- <link rel="stylesheet" href="assets\bootstrap\bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
     <!-- MyCSS -->
     <link rel="stylesheet" href="css\mycss.css">
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link " href="<?php echo site_url('Home'); ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#">About</a>
@@ -38,7 +38,7 @@
                         <a class="nav-link " href="#">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Price List</a>
+                        <a class="nav-link " href="<?php echo base_url('Package'); ?>">Package</a>
                     </li>
 
                     <!-- <li class="nav-item dropdown">
