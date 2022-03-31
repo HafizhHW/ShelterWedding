@@ -1,0 +1,47 @@
+/* CSS PRIBADI */
+.my-footer {
+	padding: 30px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+.jumbotron {
+	padding-top: 5rem;
+	background: url("../assets/image/ringsRose.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 770px;
+	text-align: center;
+	/* margin-bottom: -100px; */
+	margin-top: -100px;
+}
+
+.jumbotron .display-4 {
+	color: white;
+	margin-top: 200px;
+}
+
+.jumbotron p {
+	color: white;
+}
+
+body {
+	min-height: 2000px;
+}
+
+section {
+	padding-top: 5rem;
+}
+
+#hero-1 {
+	background: url("../assets/image/ringsDark.jpg") no-repeat center center fixed;
+	padding-top: 5rem;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	
+	/* margin-bottom: -100px; */
+}
