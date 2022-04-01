@@ -133,11 +133,14 @@
             </div>
 
         </div> -->
+    </section>
+
+    <!-- HEROES 2 START -->
 
         <section id="hero-2">
 
             <div class="container">
-                <div class="row mt-5 mb-5">
+                <div class="row mb-5">
                     
                     <div class="col-sm-4">
                         <div class="card p-4" style="height: 37rem; width:20rem;">
