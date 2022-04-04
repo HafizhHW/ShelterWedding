@@ -71,7 +71,7 @@
                         <h2>About Us</h2>
                     </div>
                  </div> -->
-            <div class="row fs-5 justify-content-center mt-5" style="background-image: url('../assets/image/ringsRose.jpg');">
+            <div class="row fs-5 justify-content-center mt-5">
                 <div class="col-6">
                     <br>
                     <p class="text-white"> Sebuah tempat di sentraland dengan ketinggian 60mdpl, puncak tertinggi sentraland)
@@ -148,13 +148,35 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center">
+            <div class="row text-center mb-3 mt-3">
+                <div class="col">
+                    <h2>Lorem</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
                 <div class="col col-8 md-8 sm-8 text-center">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit non delectus, nesciunt quaerat repellat tempore sunt! Rerum eum quos laudantium et, a repellendus, voluptatum, quibusdam tenetur perspiciatis tempora numquam quidem. Repellendus eaque molestias numquam architecto, inventore reiciendis incidunt sapiente deleniti!</p>
                 </div>
             </div>
         </div>
 
+    </section>
+
+    <section id="hero-3">
+        <div class="container-fluid">
+            <div class="row fs-5 justify-content-center">
+                <div class="col-6">
+                    <br>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, ratione ipsam praesentium voluptatibus delectus incidunt non? Ipsum impedit dolorem,
+                        eligendi molestiae rerum debitis alias optio ullam perspiciatis exercitationem.
+                        Cumque, commodi incidunt atque, culpa ab alias debitis labore quis dolorem at saepe a, rerum ut? Est repellat rerum iure in nesciunt?
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
 

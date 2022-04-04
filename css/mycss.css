@@ -40,7 +40,26 @@ section {
 	background: url("../assets/image/ringsDark.jpg") no-repeat center center fixed;
 	padding-top: 5rem;
 	background-size: cover;
-	height: 500px;
+	max-width: 100%;
+	height: auto;
+	padding-bottom: 7rem;
+	/* height: 500px; */
 	text-align: center;
 	margin-bottom: -125px;
+}
+
+#hero-3 {
+	background: url("../assets/image/weeding-gate.jpg") no-repeat center center fixed;
+	filter: contrast(85%);
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+	text-align: center;
+}
+
+#hero-3 p{
+	color: rgb(255, 255, 255);
+	/* filter: brightness(100%); */
+	/* position: absolute; */
 }
