@@ -147,6 +147,12 @@
 
                 </div>
             </div>
+
+            <div class="row justify-content-center">
+                <div class="col col-8 md-8 sm-8 text-center">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit non delectus, nesciunt quaerat repellat tempore sunt! Rerum eum quos laudantium et, a repellendus, voluptatum, quibusdam tenetur perspiciatis tempora numquam quidem. Repellendus eaque molestias numquam architecto, inventore reiciendis incidunt sapiente deleniti!</p>
+                </div>
+            </div>
         </div>
 
     </section>
