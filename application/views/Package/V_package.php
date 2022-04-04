@@ -141,10 +141,18 @@
             </div>
 -->
 
+<<<<<<< HEAD
             <!-- START THE FEATURETTES -->
+=======
+        </div> -->
+    </section>
+
+    <!-- HEROES 2 START -->
+>>>>>>> ab7a90d32650dc96710f13ae2214592d85827ea3
 
             <hr class="featurette-divider">
 
+<<<<<<< HEAD
             <div class="row featurette">
                 <div class="col-md-7 ">
                     <h2 class="featurette-heading">Wedding Package
@@ -155,6 +163,59 @@
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="assets\image\decoration\Paket 1\WhatsApp Image 2022-03-11 at 15.18.36 (1).jpeg">
+=======
+            <div class="container">
+                <div class="row mb-5">
+                    
+                    <div class="col-sm-4">
+                        <div class="card p-4" style="height: 37rem; width:20rem;">
+                        <!-- <div class="card p-4" style="width: 20rem; "> -->
+                            <img src="assets\image\decoration\Paket 1\WhatsApp Image 2022-03-11 at 15.18.36.jpeg" alt="img-place" class="img-fluid img-place-header rounded">
+                        <h3 class="mt-4 font-weight-bold">
+                            Wedding Package
+                        </h3>
+                        <p class="mt-1 mb-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eligendi.
+                        </p>
+                        <p class="mt-5">
+                            <a class="" href="">Learn More</a>
+                        </p>
+                    </div>
+                        
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card p-4" style="height: 37rem; width:20rem;">
+                            <img src="assets\image\decoration\Paket 2\WhatsApp Image 2022-03-11 at 15.20.09.jpeg" alt="img-place" class="img-fluid img-place-header rounded">
+                            <h3 class="mt-4 font-weight-bold">
+                                Engagement Package
+                            </h3>
+                            <p class="mt-1 mb-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eligendi.
+                            </p>
+                            <p class="mt-4">
+                                <a class="" href="">Learn More</a>
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="com-sm-4">
+                        <div class="card p-4" style="height: 37rem; width:20rem;">
+                            <img src="assets\image\decoration\Birthday.jpeg" alt="img-place" class="img-fluid img-place-header rounded">
+                            <h3 class="mt-4 font-weight-bold">
+                                Birthday Package
+                            </h3>
+                            <p class="mt-1 mb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eligendi.
+                            </p>
+                            <p>
+                                <a class="" href="">Learn More</a>
+                            </p>
+                        </div>
+                        
+                    </div>
+>>>>>>> ab7a90d32650dc96710f13ae2214592d85827ea3
                 </div>
             </div>
 
