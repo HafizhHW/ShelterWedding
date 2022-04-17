@@ -3,8 +3,15 @@
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- DEFAULT -->
+    <!-- <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+    <!-- MODIFY -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="HandheldFriendy" content="true">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -13,6 +20,7 @@
     <!-- MyCSS -->
     <link rel="stylesheet" href="css\mycss.css">
 
+    <link href=<?php echo base_url('assets\image\logo\Shelterwedding_Tny.png'); ?> rel="icon" type="image/gif">
     <title>Shelter Wedding</title>
 </head>
 
@@ -21,7 +29,7 @@
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparant fixed-top"> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white fixed-top mb-5">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img src="assets\image\logo\Shelterwedding_Tny.png" width="35px" height="35px"> Shelter Wedding</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -72,7 +80,7 @@
                     </div>
                  </div> -->
             <div class="row fs-5 justify-content-center mt-5">
-                <div class="col-6">
+                <div class="col-6 md-6">
                     <br>
                     <p class="text-white"> Sebuah tempat di sentraland dengan ketinggian 60mdpl, puncak tertinggi sentraland)
                         Bukan tempat kopi tapi tempat 2 insan saling bertemu, sebagai "ruang imajinasi" Mu,
@@ -96,9 +104,9 @@
     <section id="hero-2">
 
         <div class="container">
-            <div class="row mb-5">
+            <div class="row justify-content-center">
 
-                <div class="col-sm-4">
+                <div class="col-md-4 mb-3">
                     <div class="card p-4" style="height: 37rem; width:20rem;">
                         <!-- <div class="card p-4" style="width: 20rem; "> -->
                         <img src="assets\image\decoration\Paket 1\WhatsApp Image 2022-03-11 at 15.18.36.jpeg" alt="img-place" class="img-fluid img-place-header rounded">
@@ -115,7 +123,7 @@
 
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-md-4 mb-3">
                     <div class="card p-4" style="height: 37rem; width:20rem;">
                         <img src="assets\image\decoration\Paket 2\WhatsApp Image 2022-03-11 at 15.20.09.jpeg" alt="img-place" class="img-fluid img-place-header rounded">
                         <h3 class="mt-4 font-weight-bold">
@@ -131,7 +139,7 @@
 
                 </div>
 
-                <div class="com-sm-4">
+                <div class="col-md-4 mb-3">
                     <div class="card p-4" style="height: 37rem; width:20rem;">
                         <img src="assets\image\decoration\Birthday.jpeg" alt="img-place" class="img-fluid img-place-header rounded">
                         <h3 class="mt-4 font-weight-bold">
