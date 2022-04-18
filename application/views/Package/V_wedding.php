@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css\mycss.css">
 
     <link href=<?php echo base_url('assets\image\logo\Shelterwedding_Tny.png'); ?> rel="icon" type="image/gif">
-    <title>Package - Shelter Wedding</title>
+    <title>Wedding Package - Shelter Wedding</title>
 </head>
 
 <body>
@@ -38,8 +38,6 @@
                 <ul class="navbar-nav ">
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('Home'); ?>">Home</a>
-                        <!-- <a class="nav-link" href=<?php echo base_url('index.php/penjualan') ?>> -->
-                        <!-- <a class="nav-link " href="<?php echo base_url() ?>Home/index.php>"> Home <span class="sr-only">(current)</span></a> -->
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#">About</a>
@@ -101,7 +99,7 @@
 
     <!-- HERO-2 START -->
 
-    <section id="hero-2">
+    <!-- <section id="hero-2">
 
         <div class="container">
             <div class="row justify-content-center">
@@ -116,8 +114,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eligendi.
                         </p>
                         <p class="mt-5">
-                            <!-- <a class="" href="<?php echo base_url('Wedding'); ?>">Learn More</a> -->
-                            <a class="" href="<?php echo base_url('Package/WeddingPackage'); ?>">Learn More</a>
+                            <a class="" href="">Learn More</a>
                         </p>
                     </div>
 
@@ -169,7 +166,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     <section id="hero-3">
         <div class="container-fluid">
