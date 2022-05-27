@@ -95,6 +95,17 @@
 
     </section>
 
+    <!-- HERO MID START -->
+    <section id="hero-mid">
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HERO MID END -->
+
     <!-- HERO-1 END -->
 
     <!-- HERO-2 START -->

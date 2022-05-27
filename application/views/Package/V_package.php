@@ -29,7 +29,7 @@
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparant fixed-top"> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white fixed-top mb-5">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets\image\logo\Shelterwedding_Tny.png" width="35px" height="35px"> Shelter Wedding</a>
+            <a class="navbar-brand" href="#"><img src="assets\image\logo\Shelterwedding_Tny.png" width="35px" height="35px"> shelter wedding</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -99,6 +99,7 @@
 
     <!-- HERO-1 END -->
 
+
     <!-- HERO-2 START -->
 
     <section id="hero-2">
@@ -106,7 +107,7 @@
         <div class="container">
             <div class="row justify-content-center">
 
-                <div class="col-md-4 mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
                     <div class="card p-4" style="height: 37rem; width:20rem;">
                         <img src="assets\image\decoration\Paket 1\WhatsApp Image 2022-03-11 at 15.18.36.jpeg" alt="img-place" class="img-fluid img-place-header rounded">
                         <h3 class="mt-4 font-weight-bold">
@@ -116,14 +117,14 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eligendi.
                         </p>
                         <p class="mt-5">
-                            <!-- <a class="" href="<?php echo base_url('Wedding'); ?>">Learn More</a> -->
-                            <a class="" href="<?php echo base_url('Package/WeddingPackage'); ?>">Learn More</a>
+                            <a class="" href="<?php echo base_url('Wedding'); ?>">Learn More</a>
+                            <!-- <a class="" href="<?php echo base_url('Package/WeddingPackage'); ?>">Learn More</a> -->
                         </p>
                     </div>
 
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
                     <div class="card p-4" style="height: 37rem; width:20rem;">
                         <img src="assets\image\decoration\Paket 2\WhatsApp Image 2022-03-11 at 15.20.09.jpeg" alt="img-place" class="img-fluid img-place-header rounded">
                         <h3 class="mt-4 font-weight-bold">
@@ -139,7 +140,7 @@
 
                 </div>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
                     <div class="card p-4" style="height: 37rem; width:20rem;">
                         <img src="assets\image\decoration\Birthday.jpeg" alt="img-place" class="img-fluid img-place-header rounded">
                         <h3 class="mt-4 font-weight-bold">
@@ -205,6 +206,13 @@
     <script>
         $(".nav .nav-link").on("click", function() {
             $(".nav").find(".active").removeClass("active");
+            $(this).addClass("active");
+        });
+    </script>
+
+    <script>
+        $(".navbar .nav-link").on("click", function() {
+            $(".navbar").find(".active").removeClass("active");
             $(this).addClass("active");
         });
     </script>

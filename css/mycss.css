@@ -1,4 +1,90 @@
 /* CSS PRIBADI */
+
+/* NAVBAR TEST CSS START */
+
+/* .navbar{
+	display: flex;
+	position:fixed;
+	background-color: transparent;
+	padding: 20;
+	top: 0;
+	right: 0;
+	left: 0;
+	font-weight: bolder;
+}
+
+.nav-item{
+	font-weight:bold;
+	text-transform:capitalize;
+	font-family: 'Akshar', sans-serif;
+	font-size:medium;
+	margin-left: 0;
+	padding:0%;
+	align-items: flex-end;
+	justify-content: end;
+}
+
+.nav-link{
+	text-decoration: none;
+	color: lightgray;
+}
+
+.navbar-brand{
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	color: lightgray;
+	
+} */
+
+
+/* NAVBAR TEST CSS END */
+
+.navbar{
+	overflow: hidden;
+	background-color: white;
+	top: 0;
+	width: 100%;
+	font-weight: bolder;
+}
+
+
+
+/* .navbar-toggler:focus {
+	outline: 0;
+  } */
+
+/* .navbar-nav > .active {
+	color: rgb(0, 0, 0)!important;  
+	background-color: chartreuse; 
+  } */
+
+.nav-item > a:hover {
+	color: rgb(8, 8, 8)!important;
+  }
+
+
+.navbar .navbar-brand{
+	font-weight: bold;
+	/* font-family: 'Lobster', cursive; */
+	font-family: 'Poppins', sans-serif;
+	color:yellowgreen;
+	text-transform: capitalize;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+	color: yellowgreen;
+	font-size: medium;
+	text-transform: capitalize;
+	font-weight: bold;
+	/* font-family: 'Lobster', cursive; */
+	font-family: 'Akshar', sans-serif;;
+
+}
+
+.active {
+	background-color: white;
+  }
+
 .my-footer {
 	padding: 30px;
 	position: absolute;
@@ -60,8 +146,73 @@ section {
 }
 
 #hero-3 p{
-	color: rgb(250, 250, 4);
+	color:rgb(242, 246, 186);
 	padding-bottom: 4rem;
+	/* font-size: medium; */
+	font-weight: bold;
 	/* filter: brightness(100%); */
 	/* position: absolute; */
 }
+
+#hero-2 p{
+	color: black;
+	font-weight: bold;
+}
+
+.card{
+	width: fit-content;
+	margin-right: 15px;
+	margin-left: 15px;
+	width:fit-content;
+	height: 37rem;
+}
+
+@media (max-width: 290px) {
+
+	.navbar .navbar-brand{
+		display: none;
+	}
+	
+}
+
+/* @media (max-width: 600px) {
+
+	.navbar{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+//komen start
+	.navbar{
+		display: flex;
+		padding: 10px;
+	}
+//komen end
+
+	.navbar-brand{
+		display: none;
+	}
+
+	
+} */
+
+@media (max-width: 991px) {
+
+	.navbar{
+		position: fixed;
+		display: flex;
+		top:0%;
+		left: 0%;
+		bottom: 0%;
+	}
+
+	.navbar-brand{
+		display: none;
+	}
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
